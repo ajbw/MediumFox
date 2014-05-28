@@ -8,14 +8,6 @@ layout: default
   </div>
 
   <div class="home-field">
-    <div class="home-landing her-row">
-      <div class="container">
-        <div class="row">
-          {% include custom/home_landing_row.html %}
-        </div>
-      </div>
-    </div>
-
     <div class="article-list">
       <div class="container">
         {% for post in paginator.posts %}
@@ -34,5 +26,14 @@ layout: default
     <div class="archive-link">
       <h3><a href="/posts/">All Posts</a></h3>
     </div>
+
+    <div class="home-landing her-row">
+      <div class="container">
+        <div class="row">
+          {% include custom/home_landing_row.html %}
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>

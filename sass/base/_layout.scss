@@ -62,6 +62,7 @@
 
   article {
     padding-bottom: 30px;
+    border-top: 1px solid #dededc;
 
     .full-article-link {
       font-size: 14px;
@@ -75,7 +76,7 @@
     }
 
     p {
-      color: #666665;
+      color: $default-color;
       font-weight: 300;
       font-style: normal;
       font-size: 20px;

@@ -66,6 +66,7 @@
 
     .full-article-link {
       font-size: 14px;
+      margin-top: -15px;
     }
 
     h2 > a {
@@ -125,6 +126,16 @@ article {
     width: 50px;
     height: 36px;
     margin-top: 9px;
+  }
+}
+
+.read-on-icon img {
+  opacity: 0.3;
+  padding-bottom: 15px;
+  margin-top: -15px;
+
+  &:hover {
+    opacity: 0.6;
   }
 }
 

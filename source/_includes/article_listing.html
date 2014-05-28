@@ -5,12 +5,11 @@
     {% include post/categories.html %}
   </p>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  <p>
     {{ content | excerpt | markdownify }}
-  </p>
-  <p class="social-icon-list pull-right"><a href="{{ root_url }}{{ post.url }}"><img src="/images/glyphicons_001_leaf.png" /></a></p>
 
   {% if excerpted == 'true' %}
     <a class="full-article-link pull-right" rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+  {% else %}
+    <a class="read-on-icon pull-right" href="{{ root_url }}{{ post.url }}"><img src="/images/glyphicons_001_leaf.png" /></a>
   {% endif %}
 </article>

@@ -129,32 +129,31 @@ article {
   }
 }
 
-.read-on-icon img {
+.icon img {
   opacity: 0.3;
-  padding-bottom: 15px;
-  margin-top: -15px;
 
   &:hover {
     opacity: 0.6;
+  }
+}
+
+.read-on-icon {
+  @extend .icon;
+
+  img {
+    padding-bottom: 15px;
+    margin-top: -15px;
   }
 }
 
 .social-icon-list-left {
-  @extend .social-icon-list;
+  @extend .icon;
   text-align: left;
 }
 
 .social-icon-list-right {
-  @extend .social-icon-list;
+  @extend .icon;
   text-align: right;
-}
-
-.social-icon-list a {
-  opacity: 0.3;
-
-  &:hover {
-    opacity: 0.6;
-  }
 }
 
 .divider {

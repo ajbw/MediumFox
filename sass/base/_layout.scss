@@ -139,6 +139,16 @@ article {
   }
 }
 
+.social-icon-list-left {
+  @extend .social-icon-list;
+  text-align: left;
+}
+
+.social-icon-list-right {
+  @extend .social-icon-list;
+  text-align: right;
+}
+
 .social-icon-list a {
   opacity: 0.3;
 

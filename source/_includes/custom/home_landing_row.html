@@ -1,4 +1,13 @@
-<div id="about-me" class="col-md-offset-3 col-md-6">
+<div id="about-me" class="col-md-offset-2 col-md-6">
   <h4>about me</h4>
   <p>{{ site.description }}</p>
+</div>
+<div id="asides" class="col-md-2">
+{% unless page.sidebar == false %}
+  {% if site.page_asides.size %}
+    {% include_array page_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+{% endunless %}
 </div>

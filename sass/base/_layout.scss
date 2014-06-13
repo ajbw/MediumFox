@@ -18,7 +18,7 @@
   text-shadow: 1px 1px 2px white;
 
   > h1 {
-    font-weight: 700;
+    font-weight: $headings-font-weight;
     font-style: normal;
     font-size: 50px;
     line-height: 1;
@@ -29,7 +29,7 @@
 
   > p {
     letter-spacing: .01rem;
-    font-weight: 400;
+    font-weight: $body-font-weight;
     font-style: normal;
     font-size: 22px;
   }
@@ -46,7 +46,7 @@
   padding: 12px 0px;
 
   h4 {
-    font-weight: 700;
+    font-weight: $headings-font-weight;
     font-style: normal;
     padding-bottom: 12px;
     text-transform: uppercase;
@@ -78,7 +78,7 @@
 
     p {
       color: $default-color;
-      font-weight: 300;
+      font-weight: $body-font-weight;
       font-style: normal;
       font-size: 20px;
       line-height: 1.5;
@@ -102,7 +102,7 @@ article {
   padding-top: 30px;
 
   p {
-    font-weight: 300;
+    font-weight: $body-font-weight;
     font-style: normal;
     font-size: 20px;
     line-height: 1.5;
@@ -197,7 +197,7 @@ article {
   text-align: center;
 
   h4 {
-    font-weight: 700;
+    font-weight: $headings-font-weight;
     font-style: normal;
     padding-top: 12px;
     text-transform: uppercase;
@@ -214,7 +214,7 @@ article {
 
 #footer {
   h4 {
-    font-weight: 500;
+    font-weight: $body-font-weight;
     margin: 0px;
     padding: 6px 0px 0px 0px;
     text-transform: none;

@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home-page">
-  <div class="hero">
+  <div class="hero" squish-factor=".5" min-squish="10" squish-fade=".7">
     {% include custom/hero.html %}
   </div>
 
@@ -37,3 +37,9 @@ layout: default
 
   </div>
 </div>
+
+<script>
+$(document).ready(function(){
+    $('.hero').squishy();
+});
+</script>
